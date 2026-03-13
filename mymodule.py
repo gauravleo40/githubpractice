@@ -31,4 +31,8 @@ def print_fibonacci(n):
         print(a)
         a, b = b, a + b
 
-
+def odd_even(n):
+    if n % 2 == 0:
+        return f"{n} is Even"
+    else:
+        return f"{n} is Odd"
