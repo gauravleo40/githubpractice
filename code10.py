@@ -33,3 +33,6 @@ def check_palindrome(x):
     
 # print(check_palindrome(n))
 
+if __name__ == "__main__":
+    print(check_palindrome('madam'))
+    print(check_palindrome('levels'))
