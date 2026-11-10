@@ -11,9 +11,9 @@ def check_prime(x):
 
 import sys
 
-n  = int(sys.argv[1])
+# n  = int(sys.argv[1])
 
-print(check_prime(n))
+# print(check_prime(n))
 
 
 def check_odd_even(x):
@@ -22,7 +22,7 @@ def check_odd_even(x):
     else:
         return f"{x} is Odd"
     
-print(check_odd_even(n))
+# print(check_odd_even(n))
 
 
 def check_palindrome(x):
@@ -31,5 +31,5 @@ def check_palindrome(x):
     else:
         return f"{x} is Not Palindrome"
     
-print(check_palindrome(n))
+# print(check_palindrome(n))
 
